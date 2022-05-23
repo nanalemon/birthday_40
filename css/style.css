@@ -1,0 +1,88 @@
+@charset 'utf-8';
+
+:root {
+  --ym: 'Yusei Magic', sans-serif;
+  --zkg: 'Zen Kaku Gothic New', sans-serif;
+  --blue: #1a425573;
+  --num: 'M PLUS 1 Code', sans-serif;
+  --dark: #1a0b31;
+}
+
+
+
+.main {
+  background-image: url(../img/071-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+h1 img {
+  width: 100px;
+}
+h1 {
+  font-family: var(--zkg);
+  font-size: 1.5rem;
+  color: var(--blue);
+  text-align: center;
+  padding-top: 100px;
+}
+h1 .h02 {
+  display: block;
+  margin-top: 20px;
+}
+h1 .h01 {
+  transform: rotate(30deg);
+  display: inline-block;
+} 
+
+main .m01{
+  font-family: var(--zkg);
+  font-size: 1.5rem;
+  color: var(--blue);
+  text-align: center;
+  margin-top: 70px;
+}
+.timer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: var(--blue);
+  font-family: var(--zkg);
+  background-image: url(../img/033-01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#sec,
+#min,
+#hour {
+  font-family: var(--num);
+  font-size: 2rem;
+  color: var(--dark);
+}
+#day {
+  font-family: var(--num);
+  font-size: 3rem;
+  color: var(--dark);
+  font-weight: bold;
+}
+.msg {
+  color: var(--blue);
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
+  opacity: .7;
+}
+.b-img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  margin-top: 600px;
+}

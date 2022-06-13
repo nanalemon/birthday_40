@@ -79,10 +79,3 @@ main .m01{
   letter-spacing: 0.05rem;
   opacity: .7;
 }
-.b-img {
-  width: 100%;
-  object-fit: cover;
-  position: relative;
-  z-index: -1;
-  margin-top: 600px;
-}
